@@ -15,17 +15,17 @@
 <body>
 <div>
     <h1>Add Task</h1>
-    <form action="add-task" method="post"></form>
+    <form action="add-task" method="post">
     <fieldset>
     <legend>Enter task name</legend>
     <table>
     <tr>
       <th>Task name</th>
-      <th><input type="text"></th>
+      <th><input type="text" name="tname"></th>
      </tr> 
      <tr>
       <th>Task Description</th>
-      <th><input type="text"></th>
+      <th><input type="text" name="tdescription"></th>
      </tr> 
      <tr>
       <th><button>Add</button></th>
@@ -37,6 +37,7 @@
     </table>
     
     </fieldset>
+    </form>
 <a href="Home.jsp"><button>Back</button></a>
 </div>
 
